@@ -2,6 +2,7 @@ html,
 body {
   font-size: 16px;
   font-family: "Merriweather Sans", sans-serif;
+
 }
 
 .content {
@@ -34,7 +35,7 @@ nav {
 }
 
 nav li {
-  display: inline-flex;
+  display: inline;
   align-items: center;
   color: #403F3F;
   margin: auto 24px;
@@ -49,7 +50,7 @@ nav li:hover {
 
 
 .logo-title {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -76,7 +77,7 @@ nav li:hover {
 
 .main-container {
   background-color: #d8d8d8;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%
@@ -143,7 +144,7 @@ nav li:hover {
 }
 
 .group-items {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -192,6 +193,7 @@ nav li:hover {
 
 .topics {
   width: 40%;
+  max-width: 40%;
 }
 
 .topic {
@@ -214,6 +216,7 @@ nav li:hover {
 .topic-img img {
   height: auto;
   padding: 0.80px;
+
 }
 
 .topic-content {
@@ -259,7 +262,7 @@ nav li:hover {
 }
 
 .course-section-title {
-  font-size: 2.80px;
+  font-size: 64px;
   text-align: center;
   font-weight: 600;
   display: flex;
@@ -273,7 +276,7 @@ nav li:hover {
 
 .both-rows {
   background-color: white;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -290,7 +293,7 @@ nav li:hover {
 }
 
 .item {
-  display: inline-flex;
+  display: flex;
   margin: 16px;
   flex-direction: column;
   justify-content: center;
@@ -329,7 +332,7 @@ nav li:hover {
 }
 
 .thesis-section {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -385,7 +388,7 @@ nav li:hover {
 }
 
 .container {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -402,15 +405,18 @@ nav li:hover {
   padding-top: 16px;
   font-size: 30px;
   font-weight: 600;
-  padding-left: 16px;
+  padding-left: 80px;
   display: flex;
 }
 
 .container-text p {
   font-size: 16px;
-  padding-left: 16px;
-  font-weght: 300;
+  padding-left: 0;
+  font-weight: 300;
 }
+
+
+
 .container-text {
   flex-direction: column;
   justify-content: center;
@@ -430,26 +436,32 @@ nav li:hover {
 footer {
   color: black;
   font-weight: 300;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   height: 80px;
-
+  justify-content: space-between;
+  border-top: 1px solid darkgray;
+  width: 100%:
 }
 
-footer nav {
-  float: right;
+footer p {
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.nav {
   list-style: none;
-  width: 100%;
-}
-
-footer nav li {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  margin: 16px 40px;
+  margin-top: 16px;
 }
 
+.nav li:last-child {
+  margin-left: 24px;
+  margin-right: 24px;
+}
 
+.nav li:hover {
+  color: darkred;
+  transition: all 0.15s linear;
+  cursor: pointer;
 }
