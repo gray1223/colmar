@@ -98,7 +98,7 @@ nav li:hover {
 }
 
 .jumbotron div {
-  padding: 32px;
+  padding: 24px;
 }
 
 .big-text {
@@ -110,7 +110,7 @@ nav li:hover {
 }
 
 .smaller-text {
-  font-size: 1.780px;
+  font-size: 32px;
   color: #403F3F;
   width: 416px;
   font-weight: 400;
@@ -118,14 +118,14 @@ nav li:hover {
 }
 
 .start-button {
-  width: 280px;
+  width: 90%;
   background-color: #403F3F;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 14px;
+  padding: 8px 18px;
   color: white;
-  margin-left: 32px;
+  margin-left: 16px;
   text-decoration: none;
 
 }
@@ -169,7 +169,7 @@ nav li:hover {
   color: #403F3F;
   font-size: 48px;
   font-weight: 700;
-  width: 580px;
+  width: 100%;
   padding: 48px 0 48px 1.480px;
 
 }
@@ -178,9 +178,9 @@ nav li:hover {
   font-family: "Noto Sans", sans-serif;
   letter-spacing: 0.0380px;
   font-weight: 400;
-  width: 960px;
+  width: 100%;
   line-height: 1.4;
-  font-size: 1.12580px;
+  font-size: 24px;
   padding-left: 1.480px;
 }
 
@@ -238,7 +238,7 @@ nav li:hover {
 }
 
 .topic-content h2 {
-  font-size: 1.16px;
+  font-size: 16px;
   text-align: left;
   font-weight: 300;
 }
@@ -291,7 +291,7 @@ nav li:hover {
 
 .item {
   display: inline-flex;
-  margin: 1.32px;
+  margin: 16px;
   flex-direction: column;
   justify-content: center;
   background-color: white;
@@ -313,7 +313,7 @@ nav li:hover {
 
 .item-content h2 {
   padding-bottom: 16px;
-  font-size: 1.32px;
+  font-size: 16px;
   font-weight: 300;
   color: #403F3F;
 }
@@ -355,7 +355,7 @@ nav li:hover {
 }
 
 .video video{
-  width: 680px;
+  width: 90%;
 }
 
 .lower-text h1{
@@ -365,7 +365,7 @@ nav li:hover {
 }
 
 .lower-text p {
-  font-size: 1.280px;
+  font-size: 16px;
   padding-top: 16px;
   font-weight: 300;
   line-height: 1.4;
@@ -376,6 +376,7 @@ nav li:hover {
   display: flex;
   flex-direction: column;
   margin-top: 32px;
+  width: 70%;
 }
 
 .containers {
@@ -401,12 +402,12 @@ nav li:hover {
   padding-top: 16px;
   font-size: 30px;
   font-weight: 600;
-  padding-left: 48px;
+  padding-left: 16px;
   display: flex;
 }
 
 .container-text p {
-  font-size: 1.280px;
+  font-size: 16px;
   padding-left: 16px;
   font-weght: 300;
 }
